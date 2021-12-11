@@ -1,0 +1,120 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>myWebAPI</name>
+    </assembly>
+    <members>
+        <member name="T:myWebAPI.Controllers.ComputadoraController">
+            <summary>
+            Web API para gestionar modelos de computadoras
+            </summary>
+        </member>
+        <member name="M:myWebAPI.Controllers.ComputadoraController.GetCompu">
+            <summary>
+            Obtiene todas los modelos de computadoras
+            </summary>
+            <remarks>
+            Obtiene todas las computadoras que han sido registradas
+            </remarks>   
+            <response code= "200">OK. Devuelve el objeto solicitado</response>
+            <response code= "404">NOT FOUND. No se ha encontrado el objeto solicitado</response>
+        </member>
+        <member name="M:myWebAPI.Controllers.ComputadoraController.GetCompuByID(System.Int32)">
+            <summary>
+            Obtiene las computadoras por id
+            </summary>
+            <remarks>
+            Para obtener los datos de las computadoras se debe espedificar el id
+            </remarks>
+            <param name ="id">Id (idSComputadora) del objeto</param> 
+            <response code= "200">OK. Devuelve el objeto solicitado</response>
+            <response code= "404">NOT FOUND. No se ha encontrado el objeto solicitado</response>
+        </member>
+        <member name="M:myWebAPI.Controllers.ComputadoraController.PostCompu(myWebAPI.Models.Computadora)">
+            <summary>
+            Registra la información
+            </summary>
+            <remarks>
+            Se encarga de hacer los registros con la información de cada computadora
+            </remarks>   
+            <response code= "200">OK. Devuelve el objeto solicitado</response>
+            <response code= "404">NOT FOUND. No se ha encontrado el objeto solicitado</response>
+        </member>
+        <member name="M:myWebAPI.Controllers.ComputadoraController.PutCompus(System.Int32,myWebAPI.Models.Computadora)">
+            <summary>
+            Cambia datos en los registros
+            </summary>
+            <remarks>
+            Permite actualizar la información de los registros ya realizados
+            </remarks>   
+            <response code= "200">OK. Devuelve el objeto solicitado</response>
+            <response code= "404">NOT FOUND. No se ha encontrado el objeto solicitado</response>
+        </member>
+        <member name="M:myWebAPI.Controllers.ComputadoraController.DeleteCompus(System.Int32)">
+            <summary>
+            Elimina registros 
+            </summary>
+            <remarks>
+            Permite eliminar los registros indicados mediante el id
+            </remarks>   
+            <response code= "200">OK. Devuelve el objeto solicitado</response>
+            <response code= "404">NOT FOUND. No se ha encontrado el objeto solicitado</response>
+        </member>
+        <member name="T:myWebAPI.Controllers.MarcaController">
+            <summary>
+            Web API para gestionar marcas de computadoras
+            </summary>
+        </member>
+        <member name="M:myWebAPI.Controllers.MarcaController.GetMarca">
+            <summary>
+            Obtiene todas las Marcas
+            </summary>
+            <remarks>
+            Obtiene todas las marcas que han sido registradas
+            </remarks>   
+            <response code= "200">OK. Devuelve el objeto solicitado</response>
+            <response code= "404">NOT FOUND. No se ha encontrado el objeto solicitado</response>
+        </member>
+        <member name="M:myWebAPI.Controllers.MarcaController.GetMarcaByID(System.Int32)">
+            <summary>
+            Obtiene las marcas por id
+            </summary>
+            <remarks>
+            Para obtener los datos de las marcas se debe espedificar el id
+            </remarks>
+            <param name ="id">Id (idSMarca) del objeto</param> 
+            <response code= "200">OK. Devuelve el objeto solicitado</response>
+            <response code= "404">NOT FOUND. No se ha encontrado el objeto solicitado</response>
+        </member>
+        <member name="M:myWebAPI.Controllers.MarcaController.PostMarca(myWebAPI.Models.Marca)">
+            <summary>
+            Registra la información
+            </summary>
+            <remarks>
+            Se encarga de hacer los registros con la información de cada marca
+            </remarks>   
+            <response code= "200">OK. Devuelve el objeto solicitado</response>
+            <response code= "404">NOT FOUND. No se ha encontrado el objeto solicitado</response>
+        </member>
+        <member name="M:myWebAPI.Controllers.MarcaController.PutMarcas(System.Int32,myWebAPI.Models.Marca)">
+            <summary>
+            Cambia datos en los registros
+            </summary>
+            <remarks>
+            Permite actualizar la información de los registros ya realizados
+            </remarks>   
+            <response code= "200">OK. Devuelve el objeto solicitado</response>
+            <response code= "404">NOT FOUND. No se ha encontrado el objeto solicitado</response>
+        </member>
+        <member name="M:myWebAPI.Controllers.MarcaController.DeleteMarcas(System.Int32)">
+            <summary>
+            Elimina registros 
+            </summary>
+            <remarks>
+            Permite eliminar los registros indicados mediante el id
+            </remarks>   
+            <response code= "200">OK. Devuelve el objeto solicitado</response>
+            <response code= "404">NOT FOUND. No se ha encontrado el objeto solicitado</response>
+        </member>
+    </members>
+</doc>

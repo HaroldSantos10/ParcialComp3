@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\harol\\Escritorio\\Par\\Maira\\ParcialComp3\\myWebAPI.csproj": {}
+    "C:\\Users\\harol\\Escritorio\\Par\\Meylin\\ParcialComp3\\myWebAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\harol\\Escritorio\\Par\\Maira\\ParcialComp3\\myWebAPI.csproj": {
+    "C:\\Users\\harol\\Escritorio\\Par\\Meylin\\ParcialComp3\\myWebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\harol\\Escritorio\\Par\\Maira\\ParcialComp3\\myWebAPI.csproj",
+        "projectUniqueName": "C:\\Users\\harol\\Escritorio\\Par\\Meylin\\ParcialComp3\\myWebAPI.csproj",
         "projectName": "myWebAPI",
-        "projectPath": "C:\\Users\\harol\\Escritorio\\Par\\Maira\\ParcialComp3\\myWebAPI.csproj",
+        "projectPath": "C:\\Users\\harol\\Escritorio\\Par\\Meylin\\ParcialComp3\\myWebAPI.csproj",
         "packagesPath": "C:\\Users\\harol\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\harol\\Escritorio\\Par\\Maira\\ParcialComp3\\obj\\",
+        "outputPath": "C:\\Users\\harol\\Escritorio\\Par\\Meylin\\ParcialComp3\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
