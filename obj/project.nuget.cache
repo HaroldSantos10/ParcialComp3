@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sukh3kCCqXntd6Znhivsuuc7NI0m12bWc9Fe5SFefJm3hvCRfu7aIx/4/IRM0a+QrXD4ISfBh2v7Sspg3t8+ag==",
+  "dgSpecHash": "1T9/G/i4ydU30eEC+eyfy7PVYqwkbTGb7nhXS77sfTHSmy9flS2E9yH14czv4fjJ5awgoK7FrixIB83LnfI+aw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\harol\\Escritorio\\myWebAPI\\myWebAPI.csproj",
+  "projectFilePath": "C:\\Users\\harol\\Escritorio\\Par\\Maira\\ParcialComp3\\myWebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\harol\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\harol\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

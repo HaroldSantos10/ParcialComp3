@@ -10,7 +10,7 @@ namespace myWebAPI.Data
 
         public DatabaseContext(DbContextOptions<DatabaseContext> options) : base (options) { }
 
-        public DbSet<Computadora>  Computadoras { get; set;}
+        public DbSet<Computadora> Computadoras { get; set;}
         public DbSet<Marca> Marcas {get; set;}
         
     }

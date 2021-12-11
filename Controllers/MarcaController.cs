@@ -89,7 +89,6 @@ namespace myWebAPI.Controllers
             await _context.SaveChangesAsync();
 
             return marcas;
-
         }
 
         private bool MarcaExists(int id)

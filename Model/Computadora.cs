@@ -12,6 +12,6 @@ namespace myWebAPI.Models
         public int precio {get; set;}
         
         public int MarcaId {get; set;}
-        public Marca Marca {get; set;}
+        //public Marca Marca {get; set;}
     }
 }
